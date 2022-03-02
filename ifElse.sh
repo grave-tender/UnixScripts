@@ -5,7 +5,7 @@ read a
 echo "2eme chiffre"
 read b
 
-if [ $a == $b ]
+if [ $a == $b ] #ou -eq selon la version
 then
 	echo "le 1er est egal au 2eme"
 elif [ $a -gt $b ]  #greater than >, c'est une expression
