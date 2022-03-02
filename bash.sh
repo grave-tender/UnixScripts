@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 echo chmod + x FILENAME.sh
 echo chmod 700 FILENAME.sh
 #ces deux commandes rendent le code executable

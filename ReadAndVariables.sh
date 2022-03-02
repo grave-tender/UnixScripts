@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 echo "What's your cat's name?"
 read CAT_NAME
