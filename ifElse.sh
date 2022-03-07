@@ -5,13 +5,13 @@ read a
 echo "2eme chiffre"
 read b
 
-if [ $a == $b ] #ou -eq selon la version
+if [ $a -eq $b ] #ou -eq selon la version
 then
 	echo "le 1er est egal au 2eme"
 elif [ $a -gt $b ]  #greater than >, c'est une expression
 then
 	echo "le 1er est plus grand que 2eme"
-elif [ $a -lt $b]     #lower than <, c'est une expression
+elif [ $a -lt $b ]     #lower than <, c'est une expression
 then
 	echo "le 1er est plus petit que 2eme"
 else
